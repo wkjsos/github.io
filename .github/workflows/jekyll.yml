@@ -1,0 +1,19 @@
+name: 'GitHub Actions pull Data'
+ 
+on:
+  push:
+  schedule:
+    - cron: '0 17 * * *'
+
+jobs:
+  my_job:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout codes'
+    - uses: actions/checkout@v1
+    
+    - name: 'Open url'
+      run: open https://wkjsos.github.io/privacy
+    
