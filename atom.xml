@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://wkjsos.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wkjsos.github.io/"/>
+  <updated>2022-04-11T08:38:42.472Z</updated>
+  <id>https://wkjsos.github.io/</id>
+  
+  <author>
+    <name>wkj</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产品-阶段性总结(三)</title>
+    <link href="https://wkjsos.github.io/2022/04/11/stage-summary/"/>
+    <id>https://wkjsos.github.io/2022/04/11/stage-summary/</id>
+    <published>2022-04-11T08:33:06.000Z</published>
+    <updated>2022-04-11T08:38:42.472Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>独立产品研发系列文章第三篇</p></blockquote><p></br></p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;独立产品研发系列文章第三篇&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="产品" scheme="https://wkjsos.github.io/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品-如何着手做自己的产品(二)</title>
+    <link href="https://wkjsos.github.io/2022/04/08/make-your-own-product/"/>
+    <id>https://wkjsos.github.io/2022/04/08/make-your-own-product/</id>
+    <published>2022-04-08T06:06:33.000Z</published>
+    <updated>2022-04-11T08:38:30.674Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>独立产品研发系列文章第二篇</p></blockquote><p></br></p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;独立产品研发系列文章第二篇&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="产品" scheme="https://wkjsos.github.io/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品-独立App研发心路历程(一)</title>
+    <link href="https://wkjsos.github.io/2017/09/01/write-a-personal-app/"/>
+    <id>https://wkjsos.github.io/2017/09/01/write-a-personal-app/</id>
+    <published>2017-09-01T03:08:08.000Z</published>
+    <updated>2022-04-11T08:38:53.111Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>独立产品研发系列文章第一篇</p></blockquote><p>作为一个移动端的开发者，最大的愿望当然是<strong>写一个app坐等收钱了( ͡° ͜ʖ ͡°)</strong> 。</p><p>那么在独立完成一个app的路上会碰到些什么问题呢？ 最近上线了一个自己的 App，在这里把碰到的问题和自己的解决方案分享给大家。</p><p></br></p><span id="more"></span><h2 id="确定需求">1、确定需求</h2><p></br></p><p>每个人想做独立 App 的出发点可能都会略有不同。</p><p>往大了说，看到了一个人们迫切的需求，这个需求的解决方案可以改变世界（就差一个程序员了）。</p><p>往小了说，就是想在 AppStore 上看到自己的 App，它可能只是新技术的试水之作（ iOS8 的 today extension 出了之后，AppStore上出现了很多特色的基于 today extension的 App），也可能是真正能解决一些自己生活上某些不方便的辅助 App（文件操作类app，各种功能贴心的天气类应用）。</p><p><strong>确定一个需求，不管大小，这是能支撑你一直做下去的动力。</strong></p><p></br></p><p>我自己基于媳妇的需求，做了一款文件操作管理的 App ----“文件管理器”。</p><p>“文件管理器” 将手机作为服务器，允许其他同wifi下的终端能够通过浏览器管理操作手机上的文件，可以通过浏览器进行文件夹分组，文件的拷贝、移动、下载与上传。</p><p>当确定了这个需求点之后，前前后后做了差不多三个月时间，才把这个项目上线。（ 顺便学习了下swift )</p><p></br></p><h2 id="app-的原型设计和界面交互">2、App 的原型设计和界面交互</h2><p></br></p><p>当有了需求及其解决方案之后，一些模糊的原型和用户操作脑海里也会有一些概念。下面就是将具体的页面与交互确定下来了。</p><p><a href="https://link.jianshu.com/?t=http%3A%2F%2Fnext.36kr.com%2Fposts%2Fcollections%2F1">点这里可以查看相关的原型设计工具</a>，笔者也尝试了几个原型设计工具，然后放弃了。</p><p>尝试过程中发现，熟悉原型设计工具并使用其将页面设计出来耗费的时间，已经足够我使用xib把界面搭好了。之后笔者使用纯手工画草稿的方式，解决了自己原型的问题。</p><p></br></p><h2 id="app-的小图标怎么办">3、App 的小图标怎么办？</h2><p></br></p><p>确定了原型之后，整个项目的框架，自己内心也大致有了个概念。抛开代码层面的问题，还剩下一个独立开发者怎么都绕不过去的问题！！</p><p><strong>项目中使用的各种小图标怎么办？</strong></p><p>在这里给大家推荐几个笔者使用过的图标库：</p><ul><li><a href="(https://link.jianshu.com/?t=http%3A%2F%2Fwww.iconfont.cn%2F)">阿里爸爸的图标库</a> -&gt; 整套整套的矢量图标，随意搭配颜色和大小，业界良心呐。当然如果是商用还是要获得作者授权的～</li><li><a href="(https://link.jianshu.com/?t=https%3A%2F%2Ficons8.com%2F)">icons8</a> -&gt; 56,500 Free Flat Icons！！各种平台下的图标都有，还有mac版软件哦～</li><li><a href="(https://link.jianshu.com/?t=https%3A%2F%2Fwww.iconfinder.com%2F)">iconfinder</a> -&gt; 同样整套的图标，商业化模式更加明显。</li></ul><p></br></p><h2 id="自测与内测">4、自测与内测</h2><p></br></p><p>在公司我们有测试，有产品，有其他同事一起合作，帮助我们不断完善 App。但是独立开发者怎么能最大程度上提早发现和避免 bug 呢。</p><p></br></p><h5 id="自测">4.1 自测</h5><p>以前交由测试美眉的工作就只能自己来喽～当然除了手动测试之外，我们还可以养一个<a href="https://link.jianshu.com/?t=https%3A%2F%2Fkemchenj.github.io%2F2017%2F03%2F16%2F2017-03-16%2F">测试猴子</a>，帮助我们完成测试。</p><p></br></p><h5 id="招募内测">4.2 招募内测</h5><p>既然是独立 App，那么我们就不只是一个开发了，还身兼产品，运营，客服....同样的 App推广与宣传也需要我们自己身体力行了，从朋友、同学、家人开始，在各种社交网络上表示我的独立 App快要完成喽，来帮我点点吧～</p><p>内测用户的作用不只是在测试上，他们对我们更大的帮助是可以提出新的需求和建议，这是能更大程度丰满和完善我们 App的。</p><p></br></p><h5 id="测试包分发">4.3 测试包分发</h5><p>如果比较方便能获取到内测用户设备标示的，可以使用诸如<a href="https://link.jianshu.com/?t=https%3A%2F%2Fwww.pgyer.com%2F">蒲公英</a>、<a href="https://link.jianshu.com/?t=https%3A%2F%2Ffir.im%2F">fir.im</a>等的内测托管平台。（设备有限制）</p><p>如果内测用户设备标示不太容易获取到的，我们可以使用苹果 iOS8 之后开放的 TestFlight。(多达 1 万个内测名额)</p><p></br></p><h2 id="上架的截图">5、上架的截图</h2><p></br></p><p>为什么要把app上线的截图单拎出来呢？对于我们独立开发者来说，没有那么多推广渠道。我们 App的入口和门面就是我们 Appstore 产品展示页面的截图和描述了。</p><p>如果产品展示页的截图太 low，那么我们就有可能会流失掉这个看到我们 App的用户。</p><p>在公司我们有 UI 有产品帮助我们完成产品展示页面的截图，如果是我们自己怎么获取合适尺寸的截图呢。</p><p></br></p><h5 id="在模拟器上截图">5.1 在模拟器上截图</h5><p>直接使用模拟器截取应用某些页面当然是可以的，但会显的有些粗糙。</p><p></br></p><h5 id="稍微美化的方法">5.2 稍微美化的方法</h5><p>在这里给大家推荐一个免费网站<a href="https://link.jianshu.com/?t=https%3A%2F%2Fshotbot.io%2F%3Futm_source%3Dmakeappicon%26utm_medium%3Dweb%26utm_campaign%3Dmakeappicon">shotbot</a>，可以上传素材，制作出一整套格式统一的产品展示图。</p><p>其他相关：</p><p><a href="https://link.jianshu.com/?t=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fbrief-wrapper-zui-bian-jie%2Fid991730319%3Fl%3Den%26mt%3D8">最便捷的应用商店屏幕快照美化工具</a></p><p><a href="https://link.jianshu.com/?t=http%3A%2F%2Fwww.cocoachina.com%2Findustry%2F20140708%2F9066.html">如何做出优秀的App Store应用截图，多图讲述，超详细！</a></p><blockquote><p>2022-04-11 备注：我自己后来写了一个 Mac App 专门用于自己制作上架应用的截图</p></blockquote><p></br></p><h2 id="笔者用到的其他资源">6、笔者用到的其他资源</h2><p></br></p><p>当涉及到某些页面交互与设计时，单纯的三方提供的工具也好，人家做好的图标也好，或多或少会有那么些不尽如人意的地方。</p><p><strong>那么，自己来ps吧！</strong></p><p>当然对于大部分开发来说 ps 的功底并不扎实，还有些童鞋压根不会，怎么办呢。</p><p>给大家推荐两个网站：<a href="https://link.jianshu.com/?t=http%3A%2F%2Fwww.uupoop.com%2F">在线ps</a>、<a href="https://link.jianshu.com/?t=http%3A%2F%2Fxiuxiu.web.meitu.com%2F">美图秀秀网页版</a></p><p>不用下载繁重的 adobe 软件，使用浏览器就可以轻松的实现一些简单的ps效果，对于我们不怎么会 ps 的童鞋来说，这是个福音。</p><p>除了 ps 相关的，我们 App 的 Icon 也是一个非常困扰的问题。同样给大家推荐一个网站<a href="https://link.jianshu.com/?t=https%3A%2F%2Fmakeappicon.com%2F">MakeIcon</a>，直接上传 1024x1024 的 logo ，就能自动切出来其他所有尺寸的 Icon了。而且，支持 iOS10 的 iMessage 哦。</p><p></br></p><h2 id="小结">7、小结</h2><p></br></p><p>笔者是在没有 UI 帮助下使用现有的一些资源完成自己的开发，有 UI 的童鞋请出门右转朝南墙不送￣ヘ￣。</p><p>开始有自己做 App 的心思不是一两天了，直到最近把一些需要的东西捋顺了之后才正式开始着手做。当然最重要的是需求确定下来了，顺便学了一下 Swift。</p><p>在开发过程中笔者也有过1周没敲过几句代码的经历，然后发现在做独立 App 的时候需求才是真正能驱动自己坚持下去的动力。需求不在大小，最重要的是能解决问题。</p><p>随着开发的深入，需求也在慢慢的增加，Airdrop 共享，iCloud 集成，ShareExtension 开发等等都未完成，嗯，加油一点点迭代吧～ʘʚʘ（我是不会说出来我做这个 App 的初衷是为了在 pc、手机、pad 上共享我的"收藏.avi"的）</p><p>附上个人app的地址----<a href="https://link.jianshu.com/?t=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2F%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8%2Fid1166927583%3Fl%3Dzh%26ls%3D1%26mt%3D8">最简洁的文件操作管理方式-文件管理器</a></p><p></br></p><blockquote><p>2022-04-11 备注：App 已经搜不到了，没有一个好的变现方式，卖给了一家外包公司。卖出之后，也引起了我很多思考，详细的总结可以看下一篇文章。</p></blockquote><p></br></p><p>原文发在<a href="https://www.jianshu.com/p/1cfce03b0ff9">简书</a>上，后来简书被盗，其他文章一直被封，现将所有博客都迁移到 github.io。</p><p></br></p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;独立产品研发系列文章第一篇&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为一个移动端的开发者，最大的愿望当然是&lt;strong&gt;写一个app坐等收钱了( ͡° ͜ʖ ͡°)&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;那么在独立完成一个app的路上会碰到些什么问题呢？ 最近上线了一个自己的 App，在这里把碰到的问题和自己的解决方案分享给大家。&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="产品" scheme="https://wkjsos.github.io/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+</feed>
