@@ -16,7 +16,7 @@
     <meta name="renderer" content="webkit">
     <meta name="copyright" content="wkj">
     
-        <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
+        <meta name="keywords" content="hexo,hexo-theme,hexo-blog,Universal Links,deeplink,kurt_wang,独立App开发">
     
     <meta name="description" content="">
     <meta name="description" content="独立产品研发系列文章第一篇  作为一个移动端的开发者，最大的愿望当然是写一个app坐等收钱了( ͡° ͜ʖ ͡°) 。 那么在独立完成一个app的路上会碰到些什么问题呢？ 最近上线了一个自己的 App，在这里把碰到的问题和自己的解决方案分享给大家。">
@@ -35,7 +35,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="icon" href="/assets/wkj.ico">
     
-    <title>产品-独立App研发心路历程(一) · wkj 的个人空间</title>
+    <title>产品-独立App研发心路历程(一) · 王柯佳的博客</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -617,6 +617,21 @@
         <div class="post-comment">
             <!-- 来必力 City 版安装代码 -->
 
+    <div id="lv-container" data-id="city" data-uid= MTAyMC81NjE0NC8zMjYwNw==>
+        <script type="text/javascript">
+            (function (d, s) {
+                var j, e = d.getElementsByTagName(s)[0];
+                if (typeof LivereTower === 'function') { return; }
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
+
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+        </script>
+        <noscript>为正常使用来必力评论功能请激活 JavaScript</noscript>
+    </div>
+
 
             
 
@@ -777,8 +792,6 @@
         
         
     
-        
-        
         
         
         
